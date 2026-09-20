@@ -1,115 +1,101 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact — Devis gratuit — Daddy Roofer</title>
-<meta name="description" content="Demandez votre soumission gratuite pour votre toiture. Réponse en 24h. Daddy Roofer, Montréal.">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-<link rel="icon" href="images/favicon.ico">
+<title>Contact — Free Quote — Daddy Roofer</title>
+<meta name="description" content="Request your free roofing quote. Response within 24h. Daddy Roofer, Montreal.">
+<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+<link rel="icon" href="../images/favicon.ico">
 <meta property="og:type" content="website">
-<meta property="og:locale" content="fr_CA">
+<meta property="og:locale" content="en_CA">
 <meta property="og:site_name" content="Daddy Roofer">
-<meta property="og:title" content="Contact — Devis gratuit — Daddy Roofer">
-<meta property="og:description" content="Demandez votre soumission gratuite pour votre toiture. Réponse en 24h. Daddy Roofer, Montréal.">
+<meta property="og:title" content="Contact — Free Quote — Daddy Roofer">
+<meta property="og:description" content="Request your free roofing quote. Response within 24h. Daddy Roofer, Montreal.">
 <meta property="og:image" content="https://daddyroofer.com/images/og-image.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:url" content="https://daddyroofer.com/contact.html">
+<meta property="og:url" content="https://daddyroofer.com/en/contact.html">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Contact — Devis gratuit — Daddy Roofer">
-<meta name="twitter:description" content="Demandez votre soumission gratuite pour votre toiture. Réponse en 24h. Daddy Roofer, Montréal.">
+<meta name="twitter:title" content="Contact — Free Quote — Daddy Roofer">
 <meta name="twitter:image" content="https://daddyroofer.com/images/og-image.jpg">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
 <header class="site">
   <div class="nav">
-    <a href="index.html" class="brand"><img class="mark" src="images/icon-mark.png" alt=""><span class="word">Daddy Roofer</span></a>
+    <a href="index.html" class="brand"><img class="mark" src="../images/icon-mark.png" alt=""><span class="word">Daddy Roofer</span></a>
     <ul class="navlinks">
-      <li><a href="index.html">Accueil</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="services.html">Services</a></li>
-      <li><a href="galerie.html">Réalisations</a></li>
-      <li><a href="a-propos.html">À propos</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
       <li><a href="contact.html" class="active">Contact</a></li>
       <li><a href="tel:5145574331" class="phone">514-557-4331</a></li>
     </ul>
     <div class="langswitch">
-      <a href="index.html" class="current">FR</a>
-      <a href="en/contact.html">EN</a>
+      <a href="../contact.html">FR</a>
+      <a href="contact.html" class="current">EN</a>
     </div>
     <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
 </header>
 
 <section class="wrap" style="padding: 56px 0 20px;">
-  <div class="eyebrow">Devis gratuit</div>
-  <h1>Demandez votre soumission gratuite</h1>
-  <p style="font-size:1.05rem; color:var(--steel); max-width:60ch;">Nous répondons en 24 heures. Vous pouvez aussi nous écrire directement sur WhatsApp, surtout si vous avez des photos de votre toit.</p>
-  <a href="https://wa.me/15145574331?text=Bonjour%20Daddy%20Roofer%2C%20j%27aimerais%20obtenir%20un%20devis%20gratuit" class="btn btn-amber" style="margin-top:10px;">Écrire sur WhatsApp</a>
+  <div class="eyebrow">Free quote</div>
+  <h1>Request your free quote</h1>
+  <p style="font-size:1.05rem; color:var(--steel); max-width:60ch;">We respond within 24 hours. You can also message us directly on WhatsApp, especially if you have photos of your roof.</p>
+  <a href="https://wa.me/15145574331?text=Hi%20Daddy%20Roofer%2C%20I%27d%20like%20a%20free%20quote" class="btn btn-amber" style="margin-top:10px;">Message us on WhatsApp</a>
 </section>
 
 <section class="wrap row-block" style="border-bottom:none;">
-  <!-- Formulaire géré nativement par Netlify — aucun service tiers requis -->
-  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/merci.html" style="max-width:640px;">
+  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/en/thank-you.html" style="max-width:640px;" enctype="multipart/form-data">
     <input type="hidden" name="form-name" value="contact">
-    <p style="display:none;"><label>Ne pas remplir : <input name="bot-field"></label></p>
+    <p style="display:none;"><label>Leave this empty: <input name="bot-field"></label></p>
     <div class="field-row">
-      <div class="field"><label>Nom complet *</label><input type="text" name="nom" required></div>
-      <div class="field"><label>Téléphone *</label><input type="tel" name="telephone" required></div>
-    </div>
-    <div class="field-row">
-      <div class="field"><label>Courriel *</label><input type="email" name="courriel" required></div>
-      <div class="field"><label>Adresse *</label><input type="text" name="adresse" required></div>
-    </div>
-    <div class="field-row">
-      <div class="field">
-        <label>Type de propriété *</label>
-        <select name="type_propriete" required>
-          <option value="">Sélectionner</option>
-          <option value="residentiel">Résidentiel</option>
-          <option value="commercial">Commercial</option>
-        </select>
-      </div>
-      <div class="field">
-        <label>Type de toit</label>
-        <select name="type_toit">
-          <option value="">Sélectionner</option>
-          <option value="plat">Plat</option>
-          <option value="pente">En pente</option>
-          <option value="inconnu">Je ne sais pas</option>
-        </select>
-      </div>
+      <div class="field"><label>Full name *</label><input type="text" name="name" required></div>
+      <div class="field"><label>Phone *</label><input type="tel" name="phone" required></div>
     </div>
     <div class="field">
-      <label>Raison de votre demande *</label>
+      <label>Address *</label><input type="text" name="address" required>
+    </div>
+    <div class="field">
+      <label>Property type *</label>
+      <select name="property_type" required>
+        <option value="">Select</option>
+        <option value="residential">Residential</option>
+        <option value="commercial">Commercial</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Project type *</label>
       <div class="reasons">
-        <label><input type="checkbox" name="raison" value="vieillissement"> Vieillissement</label>
-        <label><input type="checkbox" name="raison" value="fuite"> Fuite</label>
-        <label><input type="checkbox" name="raison" value="tempete"> Tempête</label>
-        <label><input type="checkbox" name="raison" value="tpo"> Membrane TPO</label>
-        <label><input type="checkbox" name="raison" value="renovation"> Rénovation</label>
-        <label><input type="checkbox" name="raison" value="autre"> Autre</label>
+        <label><input type="radio" name="project_type" value="replacement" required> Roof Replacement</label>
+        <label><input type="radio" name="project_type" value="repair" required> Roof Damage Repair</label>
+        <label><input type="radio" name="project_type" value="new_construction" required> New Construction Roof</label>
       </div>
     </div>
     <div class="field">
-      <label>Message (optionnel)</label>
-      <textarea name="message" rows="4" placeholder="Décrivez brièvement votre projet ou envoyez vos photos par WhatsApp."></textarea>
+      <label>Photo (optional)</label>
+      <input type="file" name="photo" accept="image/*">
+      <p style="font-size:0.82rem; color:var(--steel); margin-top:6px;">For faster delivery, you can also <a href="https://wa.me/15145574331" style="color:var(--red);">send photos via WhatsApp</a>.</p>
     </div>
-    <button type="submit" class="btn btn-amber">Envoyer ma demande</button>
-    <p style="font-size:0.82rem; color:var(--steel); margin-top:14px;">Vos informations sont privées.</p>
+    <div class="field">
+      <label>Additional details (optional)</label>
+      <textarea name="message" rows="4" placeholder="Add any details about your project."></textarea>
+    </div>
+    <button type="submit" class="btn btn-amber">Send my request</button>
+    <p style="font-size:0.82rem; color:var(--steel); margin-top:14px;">Your information is kept private.</p>
   </form>
 </section>
 
 <section class="wrap row-block" style="border-bottom:none;">
-  <h2>Ce qui se passe ensuite</h2>
+  <h2>What happens next</h2>
   <div class="process">
-    <div class="step"><div class="n">1</div><h3>Contact sous 24h</h3><p>Nous vous rappelons rapidement.</p></div>
-    <div class="step"><div class="n">2</div><h3>Inspection gratuite</h3><p>Visite et mesure sur place, sans frais.</p></div>
-    <div class="step"><div class="n">3</div><h3>Soumission écrite</h3><p>Un prix clair, sans engagement.</p></div>
+    <div class="step"><div class="n">1</div><h3>We call within 24h</h3><p>We get back to you quickly.</p></div>
+    <div class="step"><div class="n">2</div><h3>Free inspection</h3><p>An on-site visit and measurement, no cost.</p></div>
+    <div class="step"><div class="n">3</div><h3>Written quote</h3><p>A clear price, no commitment.</p></div>
   </div>
 </section>
 
@@ -117,21 +103,21 @@
   <div class="wrap fgrid">
     <div>
       <div class="fbrand">Daddy Roofer</div>
-      <p style="color:rgba(255,255,255,0.55); max-width: 40ch;">Toiture & construction — Montréal.</p>
+      <p style="color:rgba(255,255,255,0.55); max-width: 40ch;">Roofing & construction — Montreal.</p>
     </div>
     <div>
       <h3 style="color:#fff; font-size:0.95rem;">Contact</h3>
       <p><a href="tel:5145574331">514-557-4331</a><br><a href="mailto:contact@daddyroofer.com">contact@daddyroofer.com</a></p>
     </div>
     <div>
-      <h3 style="color:#fff; font-size:0.95rem;">Zone desservie</h3>
-      <p>Montréal, Laval,<br>Rive-Nord, Rive-Sud</p>
+      <h3 style="color:#fff; font-size:0.95rem;">Service area</h3>
+      <p>Montreal, Laval,<br>North & South Shore</p>
     </div>
   </div>
-  <div class="wrap fcopy">© 2026 DR Toiture & Construction. RBQ : 5876-6171-01</div>
+  <div class="wrap fcopy">© 2026 DR Roofing & Construction. RBQ: 5876-6171-01</div>
 </footer>
 
-<div class="sticky-cta"><a href="tel:5145574331" class="call-btn">📞 Appeler maintenant</a><a href="https://wa.me/15145574331" class="wa-btn">WhatsApp</a></div>
-<script src="script.js"></script>
+<div class="sticky-cta"><a href="tel:5145574331" class="call-btn">📞 Call now</a><a href="https://wa.me/15145574331" class="wa-btn">WhatsApp</a></div>
+<script src="../script.js"></script>
 </body>
 </html>
