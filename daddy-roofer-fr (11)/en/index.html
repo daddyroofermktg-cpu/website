@@ -56,7 +56,7 @@
     </div>
   </div>
   <div class="hero-card">
-    <form name="quick-quote" method="POST" data-netlify="true" netlify-honeypot="qq-bot-field" action="/en/thank-you.html">
+    <form name="quick-quote" method="POST" data-netlify="true" netlify-honeypot="qq-bot-field" action="/en/thank-you.html" enctype="multipart/form-data">
       <input type="hidden" name="form-name" value="quick-quote">
       <p style="display:none;"><label>Leave this empty: <input name="qq-bot-field"></label></p>
       <div style="font-weight:700; font-size:1.15rem; margin-bottom:4px;">Free quote in 24h</div>
@@ -69,6 +69,10 @@
       </div>
       <div class="field" style="margin-bottom:16px;">
         <input type="text" name="postal_code" placeholder="Postal code" required style="background:rgba(255,255,255,0.08); border-color:rgba(255,255,255,0.2); color:#fff;">
+      </div>
+      <div class="field" style="margin-bottom:16px;">
+        <label style="font-size:0.82rem; color:rgba(255,255,255,0.65); margin-bottom:6px; display:block;">Photo (optional)</label>
+        <input type="file" name="photo" accept="image/*" style="background:rgba(255,255,255,0.08); border-color:rgba(255,255,255,0.2); color:#fff; font-size:0.85rem;">
       </div>
       <button type="submit" class="btn btn-amber" style="width:100%; justify-content:center; border:none; cursor:pointer;">Get my quote</button>
     </form>
