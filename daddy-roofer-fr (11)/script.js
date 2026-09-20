@@ -2,6 +2,24 @@
 
 document.addEventListener('DOMContentLoaded', function () {
 
+  /* Subtle scroll-reveal on major sections */
+  var revealTargets = document.querySelectorAll('.row-block, .cta-band, .grid3 .cell, .step');
+  if (revealTargets.length && 'IntersectionObserver' in window) {
+    var revealIO = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealIO.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+    revealTargets.forEach(function (el, i) {
+      el.classList.add('reveal');
+      el.style.transitionDelay = (i % 3) * 60 + 'ms';
+      revealIO.observe(el);
+    });
+  }
+
   /* Mobile nav toggle */
   var toggle = document.querySelector('.nav-toggle');
   var navlinks = document.querySelector('.navlinks');
