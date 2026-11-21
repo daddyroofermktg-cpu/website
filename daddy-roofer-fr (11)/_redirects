@@ -1,1 +1,10 @@
 /estimate  /  301
+
+# One canonical, secure address (https, no www)
+http://daddyroofer.com/*       https://daddyroofer.com/:splat  301!
+http://www.daddyroofer.com/*   https://daddyroofer.com/:splat  301!
+https://www.daddyroofer.com/*  https://daddyroofer.com/:splat  301!
+
+# Short links to the Google review box (use these in messages and QR codes)
+/avis    https://share.google/yyPAyE69DdtilkjSQ  302
+/review  https://share.google/yyPAyE69DdtilkjSQ  302

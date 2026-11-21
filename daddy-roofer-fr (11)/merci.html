@@ -3,20 +3,33 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Merci — Daddy Roofer</title>
-<meta name="description" content="Votre demande a bien été reçue. Daddy Roofer vous recontacte sous 24h.">
+<title>Merci | Daddy Roofer</title>
+<meta name="description" content="Votre demande a bien été reçue. Daddy Roofer vous recontacte sous 24 h.">
+<meta name="robots" content="noindex">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" href="images/favicon.ico">
-<meta name="robots" content="noindex">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_CA">
+<meta property="og:site_name" content="Daddy Roofer">
+<meta property="og:title" content="Merci | Daddy Roofer">
+<meta property="og:description" content="Votre demande a bien été reçue. Daddy Roofer vous recontacte sous 24 h.">
+<meta property="og:image" content="https://daddyroofer.com/images/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://daddyroofer.com/merci.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Merci | Daddy Roofer">
+<meta name="twitter:description" content="Votre demande a bien été reçue. Daddy Roofer vous recontacte sous 24 h.">
+<meta name="twitter:image" content="https://daddyroofer.com/images/og-image.jpg">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<a class="skip" href="#main">Passer au contenu</a>
 <header class="site">
   <div class="nav">
-    <a href="index.html" class="brand"><img class="mark" src="images/icon-mark.png" alt=""><span class="word">Daddy Roofer</span></a>
+    <a href="index.html" class="brand" aria-label="Daddy Roofer"><img src="images/logo.svg" alt="Daddy Roofer" width="160" height="54"></a>
     <ul class="navlinks">
       <li><a href="index.html">Accueil</a></li>
       <li><a href="services.html">Services</a></li>
@@ -25,45 +38,61 @@
       <li><a href="contact.html">Contact</a></li>
       <li><a href="tel:5145574331" class="phone">514-557-4331</a></li>
     </ul>
-    <div class="langswitch">
-      <a href="index.html" class="current">FR</a>
-      <a href="en/thank-you.html">EN</a>
+    <div class="langswitch" aria-label="Langue">
+      <a href="merci.html" class="current" hreflang="fr" lang="fr">FR</a>
+      <a href="en/thank-you.html" hreflang="en" lang="en">EN</a>
     </div>
     <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
 </header>
-
-<section class="wrap" style="padding: 110px 0 120px; text-align: center;">
-  <div style="max-width: 520px; margin: 0 auto;">
-    <div style="width: 64px; height: 64px; border-radius: 50%; background: var(--red); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 2rem; margin: 0 auto 28px;">✓</div>
+<main id="main">
+<section class="wrap" style="padding:110px 0 120px; text-align:center;">
+  <div style="max-width:540px; margin:0 auto;">
+    <div style="width:68px;height:68px;border-radius:50%;background:var(--red);color:#fff;display:grid;place-items:center;font-size:2rem;margin:0 auto 28px;" aria-hidden="true">✓</div>
     <h1>Merci, c'est reçu.</h1>
-    <p style="font-size: 1.08rem; color: var(--steel); margin: 0 auto 30px;">Votre demande a bien été envoyée. Notre équipe vous recontacte sous 24h pour discuter de votre projet.</p>
-    <div class="btn-row" style="justify-content: center;">
-      <a href="index.html" class="btn btn-outline">Retour à l'accueil</a>
-      <a href="https://wa.me/15145574331" class="btn btn-amber">Nous écrire sur WhatsApp</a>
+    <p style="font-size:1.1rem; margin:0 auto 30px;">Votre demande a bien été envoyée. Notre équipe vous recontacte sous 24 h pour discuter de votre projet.</p>
+    <div class="btn-row" style="justify-content:center;">
+      <a href="index.html" class="btn btn-line">Retour à l'accueil</a>
+      <a href="https://wa.me/15145574331" class="btn btn-red">Nous écrire sur WhatsApp</a>
     </div>
   </div>
 </section>
+</main>
 
 <footer class="site">
+  <div class="wrap f-trust">
+    <div><b>Licencié RBQ</b><span>5876-6171-01 · Pleinement assuré</span></div>
+    <div><b>28 ans</b><span>d'expérience terrain</span></div>
+    <div><b>TPO</b><span>Spécialistes membranes</span></div>
+    <div><b>Résidentiel + commercial</b><span>Un seul interlocuteur</span></div>
+  </div>
   <div class="wrap fgrid">
     <div>
-      <div class="fbrand">Daddy Roofer</div>
-      <p style="color:rgba(255,255,255,0.55); max-width: 40ch;">Toiture & construction — Montréal.</p>
+      <img src="images/logo-reverse.svg" alt="Daddy Roofer" width="142" height="48">
+      <p style="max-width:38ch;">Toiture & construction à Montréal. Transformer des situations stressantes en expériences de confiance et de sécurité.</p>
     </div>
     <div>
-      <h3 style="color:#fff; font-size:0.95rem;">Contact</h3>
-      <p><a href="tel:5145574331">514-557-4331</a><br><a href="mailto:contact@daddyroofer.com">contact@daddyroofer.com</a></p>
+      <h4>Contact</h4>
+      <p><a href="tel:5145574331">514-557-4331</a></p>
+      <p><a href="https://wa.me/15145574331">WhatsApp</a></p>
+      <p><a href="mailto:contact@daddyroofer.com">contact@daddyroofer.com</a></p>
     </div>
     <div>
-      <h3 style="color:#fff; font-size:0.95rem;">Zone desservie</h3>
+      <h4>Zone desservie</h4>
       <p>Montréal, Laval,<br>Rive-Nord, Rive-Sud</p>
     </div>
+    <div>
+      <h4>Liens</h4>
+      <p><a href="services.html">Services</a></p>
+      <p><a href="galerie.html">Réalisations</a></p>
+      <p><a href="/avis">Laissez-nous un avis</a></p>
+      <p><a href="confidentialite.html">Politique de confidentialité</a></p>
+    </div>
   </div>
-  <div class="wrap fcopy">© 2026 DR Toiture & Construction. RBQ : 5876-6171-01</div>
+  <div class="wrap fcopy">© 2026 DR Toiture &amp; Construction. RBQ : 5876-6171-01</div>
 </footer>
 
-<div class="sticky-cta"><a href="tel:5145574331" class="call-btn">📞 Appeler maintenant</a><a href="https://wa.me/15145574331" class="wa-btn">WhatsApp</a></div>
+<div class="sticky-cta"><a href="tel:5145574331" class="call-btn">Appeler maintenant</a><a href="https://wa.me/15145574331" class="wa-btn">WhatsApp</a></div>
 <script src="script.js"></script>
 </body>
 </html>
