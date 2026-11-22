@@ -342,3 +342,12 @@ footer.site a:hover { color: #fff; text-decoration: underline; }
 footer.site a.btn-white-ink { color: var(--ink); }
 footer.site a.btn-red { color: #fff; }
 footer.site a.btn:hover { text-decoration: none; }
+
+/* Hero form card on phones: keep the title on one line */
+@media (max-width: 760px) {
+  .hero-card { padding: 24px 22px; }
+  .hero-card .t { font-size: 1.12rem; white-space: nowrap; }
+}
+@media (max-width: 360px) {
+  .hero-card .t { font-size: 1.02rem; }
+}

@@ -56,7 +56,7 @@
     <div>
       <div class="eyebrow">Montréal et environs</div>
       <h1>La tranquillité d'un toit bien fait.</h1>
-      <p class="lead">Toiture résidentielle et commerciale à Montréal. Licencié RBQ 5876-6171-01, 28 ans d'expérience.</p>
+      <p class="lead">Toiture résidentielle et commerciale à Montréal. Licencié RBQ <span style="white-space:nowrap">5876-6171-01</span>, 28 ans d'expérience.</p>
       <div class="btn-row">
         <a href="contact.html" class="btn btn-red">Obtenir une soumission gratuite</a>
         <a href="tel:5145574331" class="btn btn-line-light">Appeler 514-557-4331</a>
@@ -64,17 +64,16 @@
       </div>
     </div>
     <div class="hero-card">
-      <form name="quick-quote" method="POST" data-netlify="true" netlify-honeypot="qq-bot-field" action="/merci.html" enctype="multipart/form-data">
+      <form name="quick-quote" method="POST" data-netlify="true" netlify-honeypot="qq-bot-field" action="/merci.html">
         <input type="hidden" name="form-name" value="quick-quote">
         <p style="display:none;"><label>Ne pas remplir : <input name="qq-bot-field"></label></p>
-        <div class="t">Soumission gratuite en 24 h</div>
+        <div class="t">Soumission gratuite en 24 h</div>
         <div class="s">Aucun engagement. Réponse rapide.</div>
       <div class="field"><label for="q-nom">Nom complet *</label><input id="q-nom" type="text" name="nom" autocomplete="name" required></div>
       <div class="field-row">
         <div class="field"><label for="q-tel">Téléphone *</label><input id="q-tel" type="tel" name="telephone" autocomplete="tel" inputmode="tel" required></div>
         <div class="field"><label for="q-cp">Code postal *</label><input id="q-cp" type="text" name="code_postal" autocomplete="postal-code" required></div>
       </div>
-        <div class="field"><label for="q-photo">Photo (optionnel)</label><input id="q-photo" type="file" name="photo" accept="image/*"></div>
         <button type="submit" class="btn btn-red" style="width:100%;">Obtenir une soumission gratuite</button>
         <p class="legal">En envoyant ce formulaire, vous acceptez que vos renseignements servent à répondre à votre demande. Voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
       </form>
